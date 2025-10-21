@@ -22,12 +22,12 @@ Results / Notes:
 ## Functions
 
 **Exercises:**
-
+```
 let square n = n * n;;
 square 4;;
 let cube n = n * n * n;;
 cube 3;;
-
+```
 Results / Notes
 
 - square 4 = 16
@@ -38,18 +38,20 @@ Results / Notes
 
 ---
 
-##Lists
+## Lists
 
 **Exercises:**
-
+```
 let nums = [1;2;3;4;5];;
 List.map square nums;;
 List.filter (fun x -> x mod 2 = 0) nums;;
 List.fold_left (+) 0 nums;;
 List.map cube nums;;
+```
 
 Results / Notes
-List.map square nums = [1;4;9;16;25]
+
+- List.map square nums = [1;4;9;16;25]
 
 - List.filter (fun x -> x mod 2 = 0) nums = [2;4]
 
