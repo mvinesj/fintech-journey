@@ -17,6 +17,8 @@ Results / Notes:
 
 - Learned that ;; ends expresions in REPL
 
+---
+
 ## Functions
 
 **Exercises:**
@@ -34,10 +36,11 @@ Results / Notes
 
 - Functions can be applied to lists later
 
+---
 
 ##Lists
 
-**Excersises:**
+**Exercises:**
 
 let nums = [1;2;3;4;5];;
 List.map square nums;;
