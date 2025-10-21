@@ -5,7 +5,7 @@
 ## Variables and Arithmetic
 
 **Exercises:**
-```ocaml
+```
 let x = 5;;
 let y = 10;;
 let sum = x + y;;
@@ -16,7 +16,7 @@ Results / Notes:
 - x = 5, y = 10, sum =15
 
 - Learned that ;; ends expresions in REPL
-
+```
 ---
 
 ## Functions
