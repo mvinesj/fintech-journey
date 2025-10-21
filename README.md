@@ -1,5 +1,4 @@
 # FinTech Journey
-<<<<<<< HEAD
 =======
 
 Welcome to my **FinTech Journey** — a professional documentation of my progress learning **OCaml**, **Linux**, and their applications in **financial technology** and **quantitative systems**.
