@@ -1,0 +1,68 @@
+# 🐧 Linux Notes – OCaml + FinTech Journey
+
+**Purpose:** Track every Linux command and concept practiced so far.  
+**Updated:** 2025-10-21  
+
+---
+
+## 🧱 **Day 1 – Linux Basics**
+
+### 🗂 Directory Navigation
+| Command | Description |
+|----------|--------------|
+| `pwd` | Print the current working directory |
+| `ls` | List files and folders |
+| `ls -la` | List all files, including hidden ones |
+| `cd <folder>` | Change directory |
+| `cd ..` | Move up one directory |
+| `mkdir <folder>` | Create a new folder |
+| `touch <file>` | Create a new file |
+
+### 🧹 File Management
+| Command | Description |
+|----------|--------------|
+| `cp <source> <destination>` | Copy files |
+| `mv <source> <destination>` | Move or rename files |
+| `rm <file>` | Delete a file |
+| `rm -r <folder>` | Delete a folder and its contents |
+
+### 🧭 System Info
+| Command | Description |
+|----------|--------------|
+| `whoami` | Show current user |
+| `uname -a` | Display system information |
+| `df -h` | Show disk space usage |
+| `top` | View running processes |
+| `clear` | Clear terminal screen |
+
+---
+
+## 🧩 **Day 2 – Git & Progress Tracking**
+
+### 🔗 Git Commands
+| Command | Description |
+|----------|--------------|
+| `git init` | Initialize a local repo |
+| `git add .` | Stage all changes |
+| `git add <file>` | Stage a specific file |
+| `git commit -m "message"` | Commit with message |
+| `git push origin main` | Push commits to GitHub |
+| `git pull origin main` | Pull updates from GitHub |
+| `git status` | Check repo status |
+| `git log` | View commit history |
+
+### 🧠 Common Git Issues & Fixes
+| Issue | Fix |
+|--------|------|
+| **Permission denied (publickey)** | Generate a new SSH key and add it to GitHub |
+| **Non-fast-forward error** | Run `git pull origin main --allow-unrelated-histories` then merge |
+| **Not a git repository** | Make sure you’re inside a folder with a `.git` directory |
+
+### 🔐 SSH Setup
+| Command | Description |
+|----------|--------------|
+| `ssh-keygen -t ed25519 -C "your_email@example.com"` | Generate a new SSH key |
+| `eval "$(ssh-agent -s)"` | Start SSH agent |
+| `ssh-add ~/.ssh/id_ed25519` | Add SSH key to agent |
+| `cat ~/.ssh/id_ed25519.pub` | Display your public key to copy to GitHub |
+
